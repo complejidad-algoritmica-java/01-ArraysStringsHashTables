@@ -15,4 +15,14 @@ public class TwoSumTest {
     assertTrue((result[0] == 1 && result[1] == 2) || (result[0] == 2 && result[1] == 1));
     assertEquals(null, twoSum.twoSum(array, 50));
   }
+
+  @Test
+  public void twoSumOptimoTest() {
+    int[] array = new int[] {9, 2, 5, 6};
+    TwoSum twoSum = new TwoSum();
+    int[] result = twoSum.twoSumOptimo(array, 7);
+    assertTrue((result[0] == 1 && result[1] == 2) || (result[0] == 2 && result[1] == 1));
+    assertEquals(null, twoSum.twoSumOptimo(array, 50));
+  }
+
 }
