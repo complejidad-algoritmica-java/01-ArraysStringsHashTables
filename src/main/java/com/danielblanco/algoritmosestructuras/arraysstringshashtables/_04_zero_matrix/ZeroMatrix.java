@@ -22,7 +22,12 @@ package com.danielblanco.algoritmosestructuras.arraysstringshashtables._04_zero_
 public class ZeroMatrix {
 
   public static void main(String[] args) {
-    int[][] matrix2 = {{2, 0, 2}, {0, 2, 1}, {9, 3, 4}};
+    int[][] matrix2 = {
+      {2, 5, 0},
+      {1, 0, 1},
+      {9, 3, 4}
+    };
+
     ZeroMatrix t = new ZeroMatrix();
     t.zeroMatrix(matrix2);
   }
